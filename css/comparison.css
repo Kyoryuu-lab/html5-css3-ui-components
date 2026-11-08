@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    caption-side: bottom;
+    background: rgba(159, 220, 255, 0.6);
+}
+
+tr:nth-child(odd) {
+    background: #b5d5ff; /*колір фону непарних стічок*/
+}
+
+td, td {
+    width: 33%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(100, 67, 118);
+    padding: 0.3em;
+}
+
+th {
+    background: #eab4ff;
+}
+
+caption {
+    padding: 0.3em;
+    font-weight: bold;
+    font-style: italic;
+}

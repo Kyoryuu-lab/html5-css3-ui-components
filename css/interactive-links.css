@@ -1,0 +1,35 @@
+body {
+    background: #fff;
+    color: #000;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0000cc;
+    border-bottom: 1px solid #00c;
+}
+
+a:visited {
+    color: #6d006d;
+    border-bottom: 1px dotted #6d006d;
+}
+
+a:focus {
+    color: #CC0000;
+    border-bottom: 1px dashed #CC0000;
+}
+
+a:hover {
+    color: #CC0000;
+    border-bottom: 1px dashed #CC0000;
+}
+
+a:active {
+    color: #CC0000;
+    font-style: italic;
+    border-bottom: 1px solid #CC0000;
+}

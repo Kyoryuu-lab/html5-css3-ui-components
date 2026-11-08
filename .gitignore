@@ -1,0 +1,19 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor & IDE Caches
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Local preview caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
